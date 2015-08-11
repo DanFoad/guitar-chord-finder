@@ -9,3 +9,14 @@
     color: #222222;
     text-align: center;
 }
+.finder__input:focus {
+    -webkit-appearance: none;
+    outline: none;
+}
+.finder__inputs input[type="submit"] {
+    height: 32px;
+    border-radius: 0;
+    border: 1px solid #E0E0E0;
+    background-color: #F0F0F0;
+    padding: 0 8px;
+}
