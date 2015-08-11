@@ -1,2 +1,2 @@
 # guitar-chord-finder
-Find a guitar chord for a given input of finger positions
+Find a guitar chord from a given input of finger positions
