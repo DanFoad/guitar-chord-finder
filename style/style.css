@@ -3,7 +3,9 @@
     flex-flow: row nowrap;
 }
 .finder__input {
+    -webkit-appearance: none;
     height: 32px;
+    padding: 0;
     border: 1px solid #E0E0E0;
     background-color: #FFFFFF;
     color: #222222;
@@ -14,9 +16,11 @@
     outline: none;
 }
 .finder__inputs input[type="submit"] {
-    height: 32px;
+    -webkit-appearance: none;
+    height: 34px;
     border-radius: 0;
     border: 1px solid #E0E0E0;
     background-color: #F0F0F0;
     padding: 0 8px;
+    cursor: pointer;
 }
