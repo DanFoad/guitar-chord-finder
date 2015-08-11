@@ -11,7 +11,8 @@ $(".finder__input").keyup(function() {
             $(".finder__inputs input[type=submit]").focus();
         } else {
             n = parseInt(name.replace("f", ""));
-            $(".finder__input[name=f" + n++ + "]").focus();
+            console.log(n);
+            $(".finder__input[name=f" + (n + 1) + "]").focus();
         }
     }
 });
