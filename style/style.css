@@ -1,0 +1,10 @@
+.finder__inputs {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.finder__input {
+    height: 32px;
+    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF;
+    color: #222222;
+}
